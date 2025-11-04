@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyN/yebmdbZSDBB2KZxo/+/S",
+      "authorship_tag": "ABX9TyPTLgKgh1TZMCENCoZcWNDv",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -29,34 +29,25 @@
     {
       "cell_type": "code",
       "source": [
-        "name <- readline(prompt = \"Enter student name: \")\n",
-        "age <- as.integer(readline(prompt = \"Enter age: \"))\n",
-        "cgpa <- as.numeric(readline(prompt = \"Enter CGPA: \"))\n",
-        "grade <- readline(prompt = \"Enter grade: \")\n",
-        "\n",
-        "cat(\"Name:\", name, \"\\t\")\n",
-        "cat(\"Age:\", age, \"\\t\")\n",
-        "cat(sprintf(\"CGPA: %.2f\\t\", cgpa))\n",
-        "cat(\"Grade:\", grade, \"\\t\")\n"
+        "c <- readline(prompt = \"Enter a character: \")\n",
+        "ascii_value <- utf8ToInt(c)\n",
+        "cat(\"The ASCII value is\", ascii_value)\n"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "q1GScyskoldS",
-        "outputId": "7cd013af-a7b4-44f4-d4e5-3e8c67608677"
+        "id": "zFaZQaBepADv",
+        "outputId": "45bd010c-1999-482a-981e-2dce13bc7d64"
       },
-      "execution_count": 7,
+      "execution_count": 8,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "Enter student name: SHENBHA\n",
-            "Enter age: 19\n",
-            "Enter CGPA: 9.2\n",
-            "Enter grade: O\n",
-            "Name: SHENBHA \tAge: 19 \tCGPA: 9.20\tGrade: O \t"
+            "Enter a character: A\n",
+            "The ASCII value is 65"
           ]
         }
       ]
