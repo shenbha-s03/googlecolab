@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPTLgKgh1TZMCENCoZcWNDv",
+      "authorship_tag": "ABX9TyPw3wyRNawuGJs9p1qQWfZ7",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -29,25 +29,25 @@
     {
       "cell_type": "code",
       "source": [
-        "c <- readline(prompt = \"Enter a character: \")\n",
-        "ascii_value <- utf8ToInt(c)\n",
-        "cat(\"The ASCII value is\", ascii_value)\n"
+        "c <- as.integer(readline(prompt = \"Enter an integer: \"))\n",
+        "char_value <- intToUtf8(c)\n",
+        "cat(\"The equivalent value is\", char_value)\n"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "zFaZQaBepADv",
-        "outputId": "45bd010c-1999-482a-981e-2dce13bc7d64"
+        "id": "KKsUgwtXpSYX",
+        "outputId": "3d632a45-5b13-476d-c0ed-475e2e9bdff4"
       },
-      "execution_count": 8,
+      "execution_count": 9,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "Enter a character: A\n",
-            "The ASCII value is 65"
+            "Enter an integer: 65\n",
+            "The equivalent value is A"
           ]
         }
       ]
