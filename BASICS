@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPEoLbt79jiWYHuIMDl6+uZ",
+      "authorship_tag": "ABX9TyOhk2h67zKv4eoeY/+AbPML",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -29,24 +29,27 @@
     {
       "cell_type": "code",
       "source": [
-        "a <- as.integer(readline(prompt = \"Enter a number: \"))\n",
-        "cat(a)\n"
+        " a <- as.integer(readline(prompt = \"Enter first number: \"))\n",
+        "b <- as.integer(readline(prompt = \"Enter second number: \"))\n",
+        "c <- a + b\n",
+        "cat(c)\n"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "wUn-BYOKnqVJ",
-        "outputId": "8bd7634b-7c4d-4b5d-fa7f-daacf0ee78bb"
+        "id": "3Jt-E1j-oIF4",
+        "outputId": "fd0dae11-a7f3-42ce-b5ca-4c1dc658566e"
       },
-      "execution_count": 5,
+      "execution_count": 6,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "Enter a number: 6\n",
-            "6"
+            "Enter first number: 6\n",
+            "Enter second number: 5\n",
+            "11"
           ]
         }
       ]
