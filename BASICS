@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyN0YBmO1znDZGOLJeKSpPEQ",
+      "authorship_tag": "ABX9TyPHNfXs7cYdyNqGXD2NjQxw",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -29,32 +29,43 @@
     {
       "cell_type": "code",
       "source": [
-        "l <- as.integer(readline(prompt = \"Enter length (m): \"))\n",
-        "b <- as.integer(readline(prompt = \"Enter breadth (m): \"))\n",
+        "a <- as.integer(readline(prompt = \"Enter first number: \"))\n",
+        "b <- as.integer(readline(prompt = \"Enter second number: \"))\n",
         "\n",
-        "a <- l * b\n",
-        "p <- 2 * (l + b)\n",
+        "cat(\"Before swapping:\\n\")\n",
+        "cat(\"a =\", a, \"\\n\")\n",
+        "cat(\"b =\", b, \"\\n\")\n",
         "\n",
-        "cat(\"The required area is\", a, \"sqm\\n\")\n",
-        "cat(\"The required length is\", p, \"m\")\n"
+        "# Swapping logic\n",
+        "t <- a\n",
+        "a <- b\n",
+        "b <- t\n",
+        "\n",
+        "cat(\"After swapping:\\n\")\n",
+        "cat(\"a =\", a, \"\\n\")\n",
+        "cat(\"b =\", b, \"\\n\")\n"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "4QgMmVSqpyCQ",
-        "outputId": "a8cd4703-7df6-40a3-8419-b40a4f9cbd87"
+        "id": "zVqxCJK8qORY",
+        "outputId": "ec1b6610-bfe3-4690-ce21-6df9ed28ff0f"
       },
-      "execution_count": 10,
+      "execution_count": 12,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "Enter length (m): 5\n",
-            "Enter breadth (m): 5\n",
-            "The required area is 25 sqm\n",
-            "The required length is 20 m"
+            "Enter first number: 5\n",
+            "Enter second number: 2\n",
+            "Before swapping:\n",
+            "a = 5 \n",
+            "b = 2 \n",
+            "After swapping:\n",
+            "a = 2 \n",
+            "b = 5 \n"
           ]
         }
       ]
