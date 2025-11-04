@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMPsNajXyg5QDNl6pR0vbWj",
+      "authorship_tag": "ABX9TyPlVoDEfu5db1lJVz3lVjW8",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -29,29 +29,30 @@
     {
       "cell_type": "code",
       "source": [
-        "a <- 10\n",
-        "b <- 20\n",
-        "\n",
-        "a <- a + b\n",
-        "b <- a - b\n",
-        "a <- a - b\n",
-        "\n",
-        "cat(a, b)\n"
+        "x <- as.integer(readline(prompt = \"Enter x: \"))\n",
+        "y <- as.integer(readline(prompt = \"Enter y: \"))\n",
+        "z <- as.integer(readline(prompt = \"Enter z: \"))\n",
+        "result <- as.integer(x != 0 && y != 0 && z != 0)\n",
+        "z <- z + 1\n",
+        "cat(result)\n"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "IfVhZZ1irgzg",
-        "outputId": "605ef404-941a-4f9a-e469-f61717d3278f"
+        "id": "3PzChD5Or2pu",
+        "outputId": "a7875a1f-1d64-451f-ba50-bf3d54dab9ae"
       },
-      "execution_count": 15,
+      "execution_count": 16,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "20 10"
+            "Enter x: 1\n",
+            "Enter y: 0\n",
+            "Enter z: 4\n",
+            "0"
           ]
         }
       ]
