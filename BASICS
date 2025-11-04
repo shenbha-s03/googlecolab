@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyN0jlirlT+ANPIkgAM0Mied",
+      "authorship_tag": "ABX9TyN411ivQb0V7OKMOMXvMlXK",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -32,23 +32,31 @@
         "a <- 10\n",
         "b <- 20\n",
         "c <- 30\n",
-        "d <- a + b * c\n",
-        "cat(d)\n"
+        "\n",
+        "result <- if (a > b && a > c) {\n",
+        "  a\n",
+        "} else if (b > c) {\n",
+        "  b\n",
+        "} else {\n",
+        "  c\n",
+        "}\n",
+        "\n",
+        "cat(result)\n"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "GQfs7Mgtql8s",
-        "outputId": "28e06a02-834f-4e02-857e-862b60fed582"
+        "id": "4iYdqROdq6Fz",
+        "outputId": "88faf910-9af1-4699-ca12-77e72dd92a20"
       },
-      "execution_count": 13,
+      "execution_count": 14,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "610"
+            "30"
           ]
         }
       ]
