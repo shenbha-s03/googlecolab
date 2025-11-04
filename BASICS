@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPHNfXs7cYdyNqGXD2NjQxw",
+      "authorship_tag": "ABX9TyN0jlirlT+ANPIkgAM0Mied",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -29,43 +29,26 @@
     {
       "cell_type": "code",
       "source": [
-        "a <- as.integer(readline(prompt = \"Enter first number: \"))\n",
-        "b <- as.integer(readline(prompt = \"Enter second number: \"))\n",
-        "\n",
-        "cat(\"Before swapping:\\n\")\n",
-        "cat(\"a =\", a, \"\\n\")\n",
-        "cat(\"b =\", b, \"\\n\")\n",
-        "\n",
-        "# Swapping logic\n",
-        "t <- a\n",
-        "a <- b\n",
-        "b <- t\n",
-        "\n",
-        "cat(\"After swapping:\\n\")\n",
-        "cat(\"a =\", a, \"\\n\")\n",
-        "cat(\"b =\", b, \"\\n\")\n"
+        "a <- 10\n",
+        "b <- 20\n",
+        "c <- 30\n",
+        "d <- a + b * c\n",
+        "cat(d)\n"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "zVqxCJK8qORY",
-        "outputId": "ec1b6610-bfe3-4690-ce21-6df9ed28ff0f"
+        "id": "GQfs7Mgtql8s",
+        "outputId": "28e06a02-834f-4e02-857e-862b60fed582"
       },
-      "execution_count": 12,
+      "execution_count": 13,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "Enter first number: 5\n",
-            "Enter second number: 2\n",
-            "Before swapping:\n",
-            "a = 5 \n",
-            "b = 2 \n",
-            "After swapping:\n",
-            "a = 2 \n",
-            "b = 5 \n"
+            "610"
           ]
         }
       ]
