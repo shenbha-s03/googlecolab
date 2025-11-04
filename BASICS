@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPw3wyRNawuGJs9p1qQWfZ7",
+      "authorship_tag": "ABX9TyN0YBmO1znDZGOLJeKSpPEQ",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -29,25 +29,32 @@
     {
       "cell_type": "code",
       "source": [
-        "c <- as.integer(readline(prompt = \"Enter an integer: \"))\n",
-        "char_value <- intToUtf8(c)\n",
-        "cat(\"The equivalent value is\", char_value)\n"
+        "l <- as.integer(readline(prompt = \"Enter length (m): \"))\n",
+        "b <- as.integer(readline(prompt = \"Enter breadth (m): \"))\n",
+        "\n",
+        "a <- l * b\n",
+        "p <- 2 * (l + b)\n",
+        "\n",
+        "cat(\"The required area is\", a, \"sqm\\n\")\n",
+        "cat(\"The required length is\", p, \"m\")\n"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "KKsUgwtXpSYX",
-        "outputId": "3d632a45-5b13-476d-c0ed-475e2e9bdff4"
+        "id": "4QgMmVSqpyCQ",
+        "outputId": "a8cd4703-7df6-40a3-8419-b40a4f9cbd87"
       },
-      "execution_count": 9,
+      "execution_count": 10,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "Enter an integer: 65\n",
-            "The equivalent value is A"
+            "Enter length (m): 5\n",
+            "Enter breadth (m): 5\n",
+            "The required area is 25 sqm\n",
+            "The required length is 20 m"
           ]
         }
       ]
