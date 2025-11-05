@@ -41,9 +41,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "3PzChD5Or2pu",
-        "outputId": "a7875a1f-1d64-451f-ba50-bf3d54dab9ae"
+        "outputId": "6e22ca90-626f-429f-d782-2f5e16fa5a03"
       },
-      "execution_count": 16,
+      "execution_count": 1,
       "outputs": [
         {
           "output_type": "stream",
@@ -51,7 +51,7 @@
           "text": [
             "Enter x: 1\n",
             "Enter y: 0\n",
-            "Enter z: 4\n",
+            "Enter z: 5\n",
             "0"
           ]
         }
